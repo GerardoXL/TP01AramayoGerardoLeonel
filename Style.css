@@ -1,0 +1,236 @@
+body{
+
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+    color: rgb(150, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid red;
+    
+}
+.logo img{
+
+    height: 70px;
+    margin-right: 20px;
+}
+.logo{
+
+    display: flex;
+    font-size: 15px;
+    
+}
+nav{
+    display: flex;
+    margin-left: 50px;
+    gap: 25px;
+
+}
+nav a{
+
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+nav a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+/*imagen del titulo*/
+body > img{
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+/*subtitulos*/
+h2{
+    color: red;
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+/*otros encabezados*/
+h3{
+color: rgb(51, 51, 51);
+text-align: center;
+margin-bottom: 30px;
+font-weight: 100px;
+}
+
+/*indice lateral aside*/
+aside{
+
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    border-left: 5px solid red;
+    margin: 30px;
+    border-radius: 10px;   
+}
+aside ul{
+
+    list-style-type: none;   
+}
+aside li{
+
+    margin-bottom: 10px;
+}
+aside a{
+
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-weight: 600px;
+}
+aside :hover{
+
+    color: red;
+    font-weight: bold;
+}
+/*secciones*/
+section{
+
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+
+}
+section img{
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+/*parrafos*/
+section p{
+
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+/*articulos cosas que caracterizan a dinamarca*/
+article{
+
+    margin: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid red;
+}
+article h3{
+
+    color: red;
+    text-align: left;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+article img{
+    height: 500px;   
+}
+article h4, article h5{
+
+margin: 20px;
+
+}
+/*gastronomia danesa*/
+article h5{
+
+    font-style: italic;
+    color: #3b3b3b;
+}
+/*footer*/
+footer{
+
+    background-color: rgb(88, 88, 88);
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+footer div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+
+    display: flex;
+    gap: 30px;
+}
+.footer-links a{
+
+color: white;
+text-decoration: none;
+
+}
+.footer-links a:hover{
+
+    text-decoration: underline;
+
+}
+
+/*responsivo*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .logo img {
+        height: 50px; 
+    }
+
+    nav {
+        margin-left: 0;
+        margin-top: 10px; 
+        gap: 15px; 
+        flex-wrap: wrap; 
+    }
+
+    nav a {
+        font-size: 18px; 
+    }
+
+    body > img {
+        height: 300px; 
+        margin: 20px 0;
+    }
+
+    section {
+        margin: 20px; 
+        padding: 15px;
+    }
+
+    aside {
+        margin: 20px 0; 
+    }
+
+    footer div {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
+
+    .footer-links a {
+        font-size: 16px; 
+    }
+}
+
