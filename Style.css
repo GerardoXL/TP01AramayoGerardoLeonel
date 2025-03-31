@@ -112,7 +112,7 @@ section{
 section img{
 
     width: 100%;
-    height: 500px;
+    height: 800px;
     object-fit: cover;
     border-radius: 20px;
     margin: 10px;
@@ -139,7 +139,7 @@ article h3{
     margin-bottom: 20px;
 }
 article img{
-    height: 500px;   
+    height: 700px;   
 }
 article h4, article h5{
 
